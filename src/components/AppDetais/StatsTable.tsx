@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { useHistory } from "react-router";
 import api from "../../services/api";
 
 interface StatsTableProps {
@@ -26,7 +25,7 @@ export const StatsTable:React.FC<StatsTableProps> = ({id}) => {
       const { data: response } = await api.get(`d734975d2aee62d197ef/${id}`)
       setStats(response)
     })()
-  },[])
+  },[id])
 
   const renderStats = stats.map((stat:Stat) => {
     return(
