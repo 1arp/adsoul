@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/adsoul/static/css/main.57757a45.chunk.css",
+    "main.js": "/adsoul/static/js/main.b6e454bd.chunk.js",
+    "main.js.map": "/adsoul/static/js/main.b6e454bd.chunk.js.map",
+    "runtime-main.js": "/adsoul/static/js/runtime-main.316e10f6.js",
+    "runtime-main.js.map": "/adsoul/static/js/runtime-main.316e10f6.js.map",
+    "static/js/2.83c3f821.chunk.js": "/adsoul/static/js/2.83c3f821.chunk.js",
+    "static/js/2.83c3f821.chunk.js.map": "/adsoul/static/js/2.83c3f821.chunk.js.map",
+    "static/js/3.e5a07b33.chunk.js": "/adsoul/static/js/3.e5a07b33.chunk.js",
+    "static/js/3.e5a07b33.chunk.js.map": "/adsoul/static/js/3.e5a07b33.chunk.js.map",
+    "index.html": "/adsoul/index.html",
+    "static/css/main.57757a45.chunk.css.map": "/adsoul/static/css/main.57757a45.chunk.css.map",
+    "static/js/2.83c3f821.chunk.js.LICENSE.txt": "/adsoul/static/js/2.83c3f821.chunk.js.LICENSE.txt",
+    "static/media/arrow.8fd5ace7.svg": "/adsoul/static/media/arrow.8fd5ace7.svg",
+    "static/media/icon1.75892e65.svg": "/adsoul/static/media/icon1.75892e65.svg",
+    "static/media/icon2.2c236833.svg": "/adsoul/static/media/icon2.2c236833.svg",
+    "static/media/icon3.0d357e94.svg": "/adsoul/static/media/icon3.0d357e94.svg",
+    "static/media/icon4.39c608a8.svg": "/adsoul/static/media/icon4.39c608a8.svg",
+    "static/media/overviewbrowserguy.6ce40959.svg": "/adsoul/static/media/overviewbrowserguy.6ce40959.svg",
+    "static/media/settings.f00ed622.svg": "/adsoul/static/media/settings.f00ed622.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.316e10f6.js",
+    "static/js/2.83c3f821.chunk.js",
+    "static/css/main.57757a45.chunk.css",
+    "static/js/main.b6e454bd.chunk.js"
+  ]
+}
