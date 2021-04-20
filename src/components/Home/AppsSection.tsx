@@ -9,11 +9,11 @@ export const AppsSection:React.FC = () => {
   useEffect(()=>{
     (async()=>{
        const {data: response} = await api.get("/54d09df281f91e8c146f")
-       setApps(response)
+       !!response && setApps(response)
     })()
   },[])
 
-  const renderAppCards = apps.map((app:any) => {
+  const renderAppCards = apps.length && apps.map((app:any) => {
     return(
       <div className="m-4">
         <AppCard key={app.id} appDetails={app}/>
@@ -23,7 +23,7 @@ export const AppsSection:React.FC = () => {
 
   return(
     <div className="overflow-scrolly m-1 m-md-4">
-      {renderAppCards}
+      {apps.length && renderAppCards}
     </div>
   )
 } 
